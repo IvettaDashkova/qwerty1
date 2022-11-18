@@ -1,0 +1,41 @@
+.hero {
+  position: relative;
+  height: 497px;
+  background-color: #01383a;
+}
+
+.overlay {
+  position: absolute;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background-image: url(../images/hero/frame.jpg);
+  background-repeat: no-repeat;
+  background-size: 304px 472px;
+}
+
+.title {
+  font-weight: 600;
+  font-size: 32px;
+  line-height: 1.19;
+  text-align: center;
+  color: #fff;
+  width: 247px;
+  margin-bottom: 25px;
+  padding-top: 180px;
+}
+
+.link {
+  width: 173px;
+  height: 51px;
+  background-color: #86e543;
+  border-radius: 16px;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 1.19;
+  //   text-align: right;
+  text-transform: uppercase;
+  color: #01383a;
+  padding: 16px 20px;
+  margin: auto;
+}
