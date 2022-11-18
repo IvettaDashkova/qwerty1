@@ -111,7 +111,7 @@
 65D:\Projects\shopforgamers\src\sass\base\fonts\ceraPro-Regular.ttf133132269989654092 0
 62D:\Projects\shopforgamers\node_modules\@parcel\optimizer-image133131979891872415 1
 62D:\Projects\shopforgamers\node_modules\css-select\lib\index.js133131979858711299 0
-38D:\Projects\shopforgamers\package.json133131978656489349 0
+38D:\Projects\shopforgamers\package.json133132429954561523 0
 56D:\Projects\shopforgamers\src\partials\main\gallery.html133131990000196624 0
 43D:\Projects\shopforgamers\src\partials\blog133132025541424893 1
 52D:\Projects\shopforgamers\node_modules\utility-types133131979865537870 1
