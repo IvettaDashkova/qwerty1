@@ -1,0 +1,65 @@
+.sale {
+  background-image: url(../images/sale/background-mob-1x.jpg);
+}
+
+.sale-title {
+  font-weight: 600;
+  font-size: 24px;
+  line-height: 1.17;
+  color: #ffffff;
+}
+
+.sale-item {
+  margin-bottom: 36px;
+}
+
+.sale-img {
+  width: 285px;
+  border-radius: 12px;
+  margin-bottom: 8px;
+}
+
+.product-title {
+  font-weight: 600;
+  font-size: 22px;
+  line-height: 1.18;
+  color: #86e543;
+  // max-width: 261px;
+  padding-left: 8px;
+  padding-right: 16px;
+  margin-bottom: 8px;
+}
+
+.product-prices {
+  padding: 0 8px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.old-price {
+  font-weight: 600;
+  font-size: 14px;
+  line-height: 1;
+  text-decoration-line: line-through;
+  color: #8d9289;
+}
+
+.new-price {
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 1;
+  color: #86e543;
+}
+
+.sale-btn {
+text-align: center;
+padding: 16px 48px;
+border-radius: 16px;
+background-color: #FFFFFF;
+
+font-weight: 700;
+font-size: 16px;
+line-height: 19px;
+color: #01383A;
+}
