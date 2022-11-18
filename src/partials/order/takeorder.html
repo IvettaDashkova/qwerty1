@@ -1,20 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Take order</title>
-    <link rel="stylesheet" href="../../sass/index.scss" />
-    <script type="module" src="../../index.js"></script>
-  </head>
-  <body>
-    <include src="./partials/main/header.html"></include>
-    <section class="takeorder">
-      <!-- TAKE ORDER -->
-      TAKE ORDER
-      <include src="./partials/order/tomodal1.html"></include>
-      <include src="./partials/order/tomodal2.html"></include>
-    </section>
-    <include src="./partials/main/footer.html"></include>
-  </body>
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Take order</title>
+  <link rel="stylesheet" href="../../sass/index.scss" />
+  <script type="module" src="../../index.js"></script>
+</head>
+
+<body>
+  <include src="./partials/main/header.html"></include>
+  <section class="takeorder order-container">
+    <!-- TAKE ORDER -->
+      <h2 class="order-title">
+        Take order
+      </h2>
+      <p class="order-text list-item">
+        Xiberia K9 PRO PC Headset
+      </p>
+      <div class="order-product">
+        <img class="order-product-img-hero" src="./images/Rectangle-4279.jpg" alt="">
+        <ul class="order-sale-list">
+          <li class="order-sale-up">
+            65.14 USD
+          </li>
+          <li class="order-sale-done">
+            55.14 USD
+          </li>
+        </ul>
+      </div>
+      <ul class="order-list">
+        <li class="order-item">
+          <img class="order-item-img" src="./images/Rectangle-4280.jpg" width="60px" alt="">
+        </li>
+        <li class="order-item">
+          <img class="order-item-img" src="./images/Rectangle-4281.jpg" width="60px" alt="">
+        </li>
+        <li class="order-item">
+          <img class="order-item-img" src="./images/Rectangle-4282.jpg" width="60px" alt="">
+        </li>
+        <li class="order-item">
+          <img class="order-item-img" src="./images/Rectangle-4283.jpg" width="60px" alt="">
+        </li>
+      </ul>
+    <include src="./partials/order/tomodal1.html"></include>
+    <include src="./partials/order/tomodal2.html"></include>
+  </section>
+  <include src="./partials/main/footer.html"></include>
+</body>
+
 </html>
