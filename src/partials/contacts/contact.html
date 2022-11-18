@@ -3,15 +3,79 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Contact</title>
+    <title>Contacts</title>
     <link rel="stylesheet" href="./sass/index.scss" />
     <script type="module" src="./index.js"></script>
   </head>
   <body>
     <include src="../main/header.html"></include>
-    <section class="contact">
-      <!-- CONTACT -->
-      CONTACT
+    <section class="contacts">
+      <h2 class="contacts__title">Contacts</h2>
+      <div class="contacts__img">
+        <img class="contacts__banner" src="" />
+      </div>
+      <p class="co"></p>
+      <p class="contacts__text">
+        In case of queries about order handling and/or delay, drop us an email
+        at <span class="contacts__text-mail">info@shopforgamers.com</span>
+      </p>
+      <div class="contacts__mail">
+        <h2 class="contacts__mail-title">Email</h2>
+        <ul class="contacts__mail-list">
+          <li class="contacts__mail-item">
+            <a class="contacts__mail-ref" href="mailto:sfg.info@gmail.com"
+              >sfg.info@gmail.com</a
+            >
+          </li>
+        </ul>
+      </div>
+      <div class="contacts__phone">
+        <h2 class="contacts__phone-title">Phone number</h2>
+        <ul class="contacts__phone-list">
+          <li class="contacts__phone-item" href="tel:+380936432288">
+            +38 (093) 643 22 88
+          </li>
+          <li class="contacts__phone-item" href="tel:+380503454423">
+            +38 (050) 345 44 23
+          </li>
+        </ul>
+      </div>
+      <div class="contacts__form">
+        <h2 class="contacts__form-title">CONTACT US</h2>
+        <form class="contacts__form-name">
+          <label for="name" class="contacts__label-name">
+            <input
+              class="contacts__form-input"
+              type="text"
+              name="name"
+              id="name"
+              required
+              placeholder="Name"
+            />
+          </label>
+          <label for="mail" class="contacts__label-name">
+            <input
+              class="contacts__form-input"
+              type="email"
+              name="mail"
+              id="mail"
+              required
+              placeholder="Email"
+            />
+          </label>
+          <p class="contacts__message">Leave your message</p>
+          <textarea
+            class="contacts__message-input"
+            name="comment"
+            id="comment"
+            required
+            cols="30"
+            rows="10"
+            placeholder=""
+          ></textarea>
+          <button type="button" class="contacts__button">SEND</button>
+        </form>
+      </div>
       <include src="./partials/contmodal.html"></include>
     </section>
     <include src="../main/footer.html"></include>
