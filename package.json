@@ -5,7 +5,7 @@
   "homepage": "https://IvettaDashkova.github.io/qwerty1/",
   "scripts": {
     "start": "parcel src/*.html",
-    "build": "parcel build src/*.html --public-url /shopforgamers/"
+    "build": "parcel build src/*.html --public-url /qwerty1/"
   },
   "repository": {
     "type": "git",
