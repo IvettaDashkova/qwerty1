@@ -2,7 +2,7 @@
   "name": "parcel-project-template",
   "version": "2.0.0",
   "description": "",
-  "homepage": "https://fredduke1983.github.io/shopforgamers/",
+  "homepage": "https://IvettaDashkova.github.io/qwerty1/",
   "scripts": {
     "start": "parcel src/*.html",
     "build": "parcel build src/*.html --public-url /shopforgamers/"
